@@ -12,14 +12,14 @@ A simple implementation of [DQN](https://www.datascienceassn.org/sites/default/f
 ## Train Stage
 loss *vs*. episode  
 <left class="half">
-    <img src="./figs/loss.png" width="300"/>
+    <img src="./figs/loss.png" width="500"/>
 </left>
 
 <br>
 
 reward *vs*. episode  
 <left class="half">
-    <img src="./figs/reward.png" width="300"/>
+    <img src="./figs/reward.png" width="500"/>
 </left>
 
 ## Test Stage

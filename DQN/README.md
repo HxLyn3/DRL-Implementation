@@ -9,7 +9,7 @@ A simple implementation of [DQN](https://www.datascienceassn.org/sites/default/f
 - `matplotlib 1.3.1`  
 - `tqdm 4.60.0`  
 
-## Train Stage
+## Training Stage
 loss *vs*. episode  
 <left class="half">
     <img src="./figs/loss.png" width="500"/>
@@ -22,7 +22,7 @@ reward *vs*. episode
     <img src="./figs/reward.png" width="500"/>
 </left>
 
-## Test Stage
+## Testing Stage
 ### Result
 ```
 Episode x 100   average episode reward: -107.0500

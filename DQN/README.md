@@ -10,17 +10,17 @@ A simple implementation of [DQN](https://www.datascienceassn.org/sites/default/f
 - `tqdm 4.60.0`  
 
 ## Train Stage
-<center>
-    <img src="./figs/loss.png" width = "99%" alt=""/>
-    loss <em>vs</em>. episode
-</center>  
+loss *vs*. episode  
+<left class="half">
+    <img src="./figs/loss.png" width="300"/>
+</left>
 
 <br>
 
-<center>
-    <img src="./figs/reward.png" width = "99%" alt=""/>
-    reward <em>vs</em>. episode
-</center>
+reward *vs*. episode  
+<left class="half">
+    <img src="./figs/reward.png" width="300"/>
+</left>
 
 ## Test Stage
 ### Result

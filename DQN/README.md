@@ -11,9 +11,15 @@ A simple implementation of [DQN](https://www.datascienceassn.org/sites/default/f
 
 ## Train Stage
 <center>
-    <img src="./figs/loss.png" width = "49%" alt=""/>
-    <img src="./figs/reward.png" width = "49%" alt=""/>
-    loss <em>vs</em>. episode (left) and reward <em>vs</em>. episode (right)
+    <img src="./figs/loss.png" width = "99%" alt=""/>
+    loss <em>vs</em>. episode
+</center>  
+
+<br>
+
+<center>
+    <img src="./figs/reward.png" width = "99%" alt=""/>
+    reward <em>vs</em>. episode
 </center>
 
 ## Test Stage

@@ -8,7 +8,7 @@ from torch.optim import Adam
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class DQN(object):
-    """ a implement of Deep Q-Network """
+    """ an implement of Deep Q-Network """
 
     def __init__(self,
                  obs_dim,

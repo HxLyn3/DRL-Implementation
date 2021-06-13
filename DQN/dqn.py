@@ -69,7 +69,7 @@ class DQN(object):
         self.exp_cnt += 1
 
     def train(self):
-        """ train main DQN with a mini-batch of exp """
+        """ train DQN with a mini-batch of exp """
         batch_indices = np.random.choice(min(self.exp_cnt, self.replay_buffer_sz), self.batch_sz)
         batch_exp = self.replay_buffer[batch_indices, :]
         s    = torch.FloatTensor(batch_exp[:, :self.obs_dim]).to(device)                  # state

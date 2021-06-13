@@ -11,7 +11,7 @@ def main(env, agent, update_freq=4, target_update_freq=100, n_episodes=1000):
     episode_loss_list   = []        # loss of DQN at each episode
     episode_reward_list = []        # reward at each episode
 
-    cnt = 0                 # counter of decision making
+    cnt = 0                         # counter of decision making
     for it in range(n_episodes):
         obs = env.reset()
         loss_list   = []

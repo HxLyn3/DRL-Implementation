@@ -46,14 +46,14 @@ def main(env, agent, update_freq=4, target_update_freq=100, n_episodes=1000):
     plt.plot(episode_loss_list)
     plt.xlabel("episode")
     plt.ylabel("loss")
-    plt.savefig("./loss.png", dpi=500)
+    plt.savefig("./figs/loss.png", dpi=500)
 
     # plot episode reward
     figure, ax = plt.subplots(figsize=figsize)
     plt.plot(episode_reward_list)
     plt.xlabel("episode")
     plt.ylabel("episode reward")
-    plt.savefig("./reward.png", dpi=500)
+    plt.savefig("./figs/reward.png", dpi=500)
 
 if __name__ == '__main__':
     # environment

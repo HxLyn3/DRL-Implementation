@@ -36,7 +36,7 @@ def main(env, agent, n_episodes=1000):
     def animate(i):
         patch.set_data(test_frames[i])
     anim = animation.FuncAnimation(plt.gcf(), animate, frames=len(test_frames), interval=5)
-    anim.save('./test.gif', writer='imagemagick', fps=30)
+    anim.save('./figs/test.gif', writer='imagemagick', fps=30)
 
 if __name__ == '__main__':
     # environment

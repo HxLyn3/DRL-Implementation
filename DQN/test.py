@@ -13,7 +13,6 @@ def main(env, agent, n_episodes=1000):
     episode_reward_list = []        # reward at each episode
     test_frames         = []        # frames of test process in env
 
-    cnt = 0                 # counter of decision making
     for it in tqdm(range(n_episodes)):
         obs = env.reset()
         reward_list = []

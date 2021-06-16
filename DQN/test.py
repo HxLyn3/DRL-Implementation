@@ -21,7 +21,6 @@ def main(env, agent, n_episodes=1000):
             test_frames.append(env.render(mode='rgb_array'))
             action = agent.choose_action(obs, exploration=False)        # agent makes decision
             obs_, reward, done, info = env.step(action)                 # environmental feedback
-            agent.store_experience(obs, action, reward, done, obs_)     # agent stores exp
 
             reward_list.append(reward)
             obs = copy.deepcopy(obs_)

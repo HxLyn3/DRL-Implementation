@@ -1,5 +1,5 @@
 # Implementaitions of Deep Reinforcement Learning Algorithms
 - **Author:** Haoxin Lin
-- **Data:** 04/27/2021
+- **Date:** 04/27/2021
 - **E-mail:** linhx36@outlook.com
 - **Brief:** Codes of a series of deep reinforcement learning algorithms. All the codes are implemented with pytorch and numpy.

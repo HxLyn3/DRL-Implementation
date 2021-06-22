@@ -38,7 +38,7 @@ class Critic(nn.Module):
         return Q
 
 class DDPG(object):
-    """ an implement of Deep Deterministic Policy Gradient (DDPG) """
+    """ an implementation of Deep Deterministic Policy Gradient (DDPG) """
 
     def __init__(self,
                  obs_dim,

@@ -1,4 +1,4 @@
-# Implementaitions of Deep Reinforcement Learning Algorithms
+# Implementations of Deep Reinforcement Learning Algorithms
 - **Author:** Haoxin Lin
 - **Date:** 04/27/2021
 - **E-mail:** linhx36@outlook.com
